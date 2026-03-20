@@ -1,0 +1,17 @@
+{
+  "name": "teste-wdio",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/appium-service": "^9.24.0",
+    "@wdio/cli": "^9.24.0",
+    "@wdio/local-runner": "^9.24.0",
+    "@wdio/mocha-framework": "^9.24.0",
+    "@wdio/spec-reporter": "^9.24.0",
+    "appium-chromedriver": "^8.2.15",
+    "appium-uiautomator2-driver": "^7.0.0",
+    "chromedriver": "^83.0.1"
+  },
+  "scripts": {
+    "test": "wdio run ./wdio.conf.js"
+  }
+}
